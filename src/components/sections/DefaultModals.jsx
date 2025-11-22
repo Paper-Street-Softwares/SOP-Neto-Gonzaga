@@ -79,7 +79,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="white"
+                      stroke="black"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -91,7 +91,8 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   }
                   size="small"
                   className=" mt-4"
-                  labelColor="text-white"
+                  labelColor="text-black"
+                  color="bg-transparent"
                   label={t("features.card1.buttonLabel")}
                   onClick={() => openModal(1)}
                 />
@@ -114,7 +115,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                       height="18"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="white"
+                      stroke="black"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -126,7 +127,8 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   }
                   size="small"
                   className=" mt-4"
-                  labelColor="text-white"
+                  labelColor="text-black"
+                  color="bg-transparent"
                   label={t("features.card2.buttonLabel")}
                   onClick={() => openModal(2)}
                 />
