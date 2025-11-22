@@ -62,7 +62,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
       <SectionWrapper>
         <div className="flex flex-col justify-center items-center tablet1:items-center w-full gap-6 tablet1:gap-12 desktop1:gap-16">
           {/* Coluna esquerda */}
-          <div className="flex-1 flex flex-col tablet2:flex-row gap-6 tablet1:gap-0 items-center tablet1:items-start ">
+          <div className="flex-1 flex flex-wrap gap-6 items-center tablet1:items-start  justify-center">
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card1.icon}
@@ -72,23 +72,23 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
+                  // icon={
+                  //   <svg
+                  //     xmlns="http://www.w3.org/2000/svg"
+                  //     width="18"
+                  //     height="18"
+                  //     viewBox="0 0 24 24"
+                  //     fill="none"
+                  //     stroke="black"
+                  //     strokeWidth="2"
+                  //     strokeLinecap="round"
+                  //     strokeLinejoin="round"
+                  //     className="lucide lucide-corner-down-right"
+                  //   >
+                  //     <path d="m15 10 5 5-5 5" />
+                  //     <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                  //   </svg>
+                  // }
                   size="small"
                   className=" mt-4"
                   labelColor="text-black"
@@ -98,7 +98,6 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
-
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card2.icon}
@@ -108,23 +107,23 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
+                  // icon={
+                  //   <svg
+                  //     xmlns="http://www.w3.org/2000/svg"
+                  //     width="18"
+                  //     height="18"
+                  //     viewBox="0 0 24 24"
+                  //     fill="none"
+                  //     stroke="black"
+                  //     strokeWidth="2"
+                  //     strokeLinecap="round"
+                  //     strokeLinejoin="round"
+                  //     className="lucide lucide-corner-down-right"
+                  //   >
+                  //     <path d="m15 10 5 5-5 5" />
+                  //     <path d="M4 4v7a4 4 0 0 0 4 4h12" />
+                  //   </svg>
+                  // }
                   size="small"
                   className=" mt-4"
                   labelColor="text-black"
@@ -174,10 +173,8 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 /> */}
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
-          </div>
-
-          {/* Imagem central */}
-          {/* <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%] ">
+            {/* Imagem central */}
+            {/* <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%] ">
             <img
               src={content.texts.features.imgFeatures}
               alt={content.texts.features.alt}
@@ -185,9 +182,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
               loading="lazy"
             />
           </MotionDivDownToUp> */}
-
-          {/* Coluna direita */}
-          <div className="flex-1 flex flex-col tablet2:flex-row gap-3 items-center tablet1:items-start">
+            {/* Coluna direita */}
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card4.icon}
@@ -222,7 +217,6 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 /> */}
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
-
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card5.icon}
@@ -263,7 +257,6 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 /> */}
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
-
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card6.icon}
@@ -303,7 +296,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   onClick={() => openModal(4)}
                 /> */}
               </IconButtonFeatureCard>
-            </MotionDivDownToUp>
+            </MotionDivDownToUp>{" "}
           </div>
         </div>
       </SectionWrapper>
