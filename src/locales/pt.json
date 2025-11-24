@@ -30,16 +30,16 @@
     "title": "Soluções jurídicas em diversas áreas do Direito",
     "subtitle": "Atendimento completo com orientação clara e atuação estratégica.",
     "card1": {
-      "title": "Direito Civil",
-      "subtitle": "Soluções jurídicas para conflitos do dia a dia.",
-      "description": "- Pensão/Execução/Exoneração de Alimentos <br/> - Divórcio  <br/> - Guarda  <br/> - Adoção  <br/> - Regulamentação de Visitas  <br/> - Investigação/Negatória de Paternidade  <br/> - Curatela  <br/> - Inventário/Partilha/Testamento <br/> - Alvará Judicial  <br/> - Contratos  <br/> - Direito Imobiliário <br/>",
+      "title": "Direito Penal",
+      "subtitle": "Defesa técnica e atuação jurídica especializada no Júri.",
+      "description": "- Plantão 24 hrs  <br/> - Acompanhamento em flagrantes  <br/> - Inquéritos Policiais   <br/> - Habeas Corpus   <br/> - Alvará de Soltura   <br/> - Liberdade Provisória   <br/> - Fiança  <br/> - Defesa em Processo Crime  <br/> - Recursos  <br/> - Apelação  <br/> - Progressão <br/> - Revisão <br/>",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
     "card2": {
-      "title": "Direito Penal",
-      "subtitle": "Defesa técnica e atuação jurídica especializada no Júri.",
-      "description": "- Plantão 24 hrs  <br/> - Acompanhamento em flagrantes  <br/> - Inquéritos Policiais   <br/> - Habeas Corpus   <br/> - Alvará de Soltura   <br/> - Liberdade Provisória   <br/> - Fiança  <br/> - Defesa em Processo Crime  <br/> - Recursos  <br/> - Apelação  <br/> - Progressão <br/> - Revisão <br/>",
+      "title": "Direito Civil",
+      "subtitle": "Soluções jurídicas para conflitos do dia a dia.",
+      "description": "- Pensão/Execução/Exoneração de Alimentos <br/> - Divórcio  <br/> - Guarda  <br/> - Adoção  <br/> - Regulamentação de Visitas  <br/> - Investigação/Negatória de Paternidade  <br/> - Curatela  <br/> - Inventário/Partilha/Testamento <br/> - Alvará Judicial  <br/> - Contratos  <br/> - Direito Imobiliário <br/>",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
@@ -68,6 +68,20 @@
     "card6": {
       "title": "Direito Previdenciário",
       "subtitle": "Suporte em benefícios e direitos junto ao INSS.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "Entenda"
+    },
+    "card7": {
+      "title": "Direito Eleitoral",
+      "subtitle": "Orientação e defesa em questões relacionadas a candidaturas e eleições.",
+      "description": "A_Definir",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "Entenda"
+    },
+    "card8": {
+      "title": "Consultoria Jurídica",
+      "subtitle": "Análise estratégica e orientação para decisões seguras no dia a dia.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"

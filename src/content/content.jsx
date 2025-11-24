@@ -47,9 +47,12 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
 import {
   Briefcase,
   BriefcaseBusiness,
+  ChartArea,
   Gavel,
+  MessageCircle,
   Scale,
   ShoppingCart,
+  Vote,
 } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
@@ -315,6 +318,40 @@ const content = {
         ),
         imgModal: imgFeaturesCardModal4,
         icon: <Gavel />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card7: {
+        img: 3,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: <Vote />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card8: {
+        img: 3,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: <MessageCircle />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
