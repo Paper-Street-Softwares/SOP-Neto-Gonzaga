@@ -73,7 +73,7 @@ export default function ListGroupSocial({
       {visibleSections.map(({ id, label }) => (
         <li
           key={id}
-          className="transition group h-auto desktop1:w-[50%] desktop2:w-[75px] text-center"
+          className="transition group h-auto desktop1:w-auto text-center"
         >
           {mode === "blog" ? (
             <a
@@ -95,7 +95,7 @@ export default function ListGroupSocial({
               }}
             >
               <span
-                className={`h-[24px] inline-block text-paragraph3 ${getHoverTextColor()} ${textShadow}`}
+                className={`h-[24px] inline-block text-paragraph3 whitespace-normal ${getHoverTextColor()} ${textShadow}`}
               >
                 {label}
               </span>
