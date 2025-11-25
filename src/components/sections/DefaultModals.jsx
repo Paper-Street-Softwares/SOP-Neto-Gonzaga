@@ -60,9 +60,10 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
       />
 
       <SectionWrapper>
-        <div className="flex flex-col justify-center items-center tablet1:items-center w-full gap-6 tablet1:gap-12 desktop1:gap-16">
+        <div className="flex flex-col justify-center items-center tablet1:items-center w-full gap-6 tablet1:gap-6 desktop1:gap-6">
           {/* Coluna esquerda */}
-          <div className="flex-1 flex flex-wrap gap-6 items-center tablet1:items-start  justify-center">
+
+          <div className="flex flex-wrap gap-4 justify-center">
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card1.icon}
@@ -133,6 +134,9 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
+          </div>
+          <div className="flex flex-wrap gap-4 justify-center">
+            {" "}
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card3.icon}
@@ -207,16 +211,6 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 /> */}
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
-            {/* Imagem central */}
-            {/* <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%] ">
-            <img
-              src={content.texts.features.imgFeatures}
-              alt={content.texts.features.alt}
-              className="hidden h-[640px] object-cover w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
-              loading="lazy"
-            />
-          </MotionDivDownToUp> */}
-            {/* Coluna direita */}
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card5.icon}
