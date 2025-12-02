@@ -2,7 +2,7 @@
   "infos": {
     "adress": "Rua Brasília, nº 392, Vila Aparecida <br/> Itapeva - SP, CEP: 18401-140",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> Atendimento 24h",
+    "expediente": "Segunda a sexta-feira: <br/> Atendimento 24h <br/> <br/> Para acompanhamentos em delegacias e flagrantes, atendimento 24h todos os dias da semana",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -18,11 +18,11 @@
   },
   "hero": {
     "miniTag": "ADVOGADO EM ITAPEVA - SP",
-    "title": "Mais de <span class=\"text-primary font-bold\">duas décadas</span> de experiência",
+    "title": "Mais de <span class=\"text-texture font-bold\">duas décadas</span> de experiência",
     "subtitle": "Atuação sólida no Direito Criminal e Civil, unindo técnica, compromisso e atendimento acolhedor.",
     "ctaButtonText": "Quero atendimento",
     "obsHero": {
-      "text": "Atendimento online via WhatsApp, tudo no conforto da sua casa."
+      "text": "Atendimento apenas com <span class=\" font-bold\">hora marcada.</span>"
     }
   },
   "features": {
@@ -31,58 +31,93 @@
     "subtitle": "Atendimento completo com orientação clara e atuação estratégica.",
     "card1": {
       "title": "Direito Penal",
-      "subtitle": "Defesa técnica e atuação jurídica especializada no Júri.",
-      "description": "- Plantão 24 hrs  <br/> - Acompanhamento em flagrantes  <br/> - Inquéritos Policiais   <br/> - Habeas Corpus   <br/> - Alvará de Soltura   <br/> - Liberdade Provisória   <br/> - Fiança  <br/> - Defesa em Processo Crime  <br/> - Recursos  <br/> - Apelação  <br/> - Progressão <br/> - Revisão <br/>",
+      "subtitle": "Defesa e Acompanhamento em Inquéritos e Ações Penais.",
+      "description": "O <strong>Direito Penal</strong> é o ramo do direito que lida com a aplicação de sanções (penas) a quem comete crimes. Nossa atuação é focada na <strong>defesa técnica e estratégica</strong> de indivíduos investigados ou acusados em processos criminais. <br/><br/> <strong>• • Defesa em Inquéritos Policiais:</strong> Acompanhamento desde a fase de investigação, garantindo o devido processo legal e o respeito às garantias constitucionais do investigado. <br/><br/> <strong>• • Defesa em Ações Penais: </strong> Apresentação de defesas escritas e orais, recursos e acompanhamento de todas as fases do processo perante a Justiça Estadual ou Federal. <br/><br/> <strong>• • Crimes Abrangidos:</strong> Crimes contra o patrimônio, crimes de trânsito, crimes contra a honra, crimes previstos na Lei de Drogas e outros tipos penais.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
     "card2": {
-      "title": "Direito Civil",
-      "subtitle": "Soluções jurídicas para conflitos do dia a dia.",
-      "description": "- Pensão/Execução/Exoneração de Alimentos <br/> - Divórcio  <br/> - Guarda  <br/> - Adoção  <br/> - Regulamentação de Visitas  <br/> - Investigação/Negatória de Paternidade  <br/> - Curatela  <br/> - Inventário/Partilha/Testamento <br/> - Alvará Judicial  <br/> - Contratos  <br/> - Direito Imobiliário <br/>",
+      "title": "Tribunal do Júri",
+      "subtitle": "Defesa Especializada em Crimes Dolosos Contra a Vida.",
+      "description": "O <strong>Tribunal do Júri </strong> é a instituição responsável por julgar os <strong>crimes dolosos contra a vida</strong> (homicídio, tentativa de homicídio, infanticídio, aborto e instigação/participação em suicídio). A defesa nesta área exige <strong>conhecimento aprofundado</strong> e uma <strong>capacidade de comunicação e oratória</strong> diferenciada. <br/><br/> <strong>• • Defesa Especializada:</strong> Atuamos desde a fase de inquérito até o julgamento em plenário, elaborando a estratégia mais adequada ao caso. <br/><br/> <strong>• • Plenário do Júri: </strong> Representação do acusado perante o Conselho de Sentença (jurados), com a exposição dos fatos, provas e teses jurídicas para buscar a absolvição ou a desclassificação do crime.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
     "card3": {
-      "title": "Direito Trabalhista",
-      "subtitle": "Proteção aos seus direitos nas relações de trabalho.",
-      "description": "A_Definir",
+      "title": "Acompanhamento à Delegacias",
+      "subtitle": "Suporte Legal Imediato em Ocorrências Policiais.",
+      "description": "A presença de um advogado na delegacia é fundamental para garantir a legalidade dos atos e os direitos do cidadão, seja ele investigado, vítima ou testemunha. O  <strong>suporte legal imediato</strong> em ocorrências policiais é um serviço essencial. <br/><br/> <strong>• • Prerrogativa Constitucional:</strong> Assegurar que os direitos do conduzido sejam respeitados, evitando abusos e ilegalidades no momento da oitiva ou interrogatório. <br/><br/> <strong>• • Análise da Situação: </strong> Avaliação jurídica imediata da ocorrência para orientar a melhor conduta a ser adotada.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
     "card4": {
-      "title": "Direito Administrativo",
-      "subtitle": "Atuação técnica em processos e questões públicas.",
-      "description": "A_Definir",
+      "title": "Flagrantes",
+      "subtitle": "Atendimento Urgente e Defesa em Audiência de Custódia.",
+      "description": "Ser pego em <strong>flagrante delito</strong> é uma situação de extrema urgência. Nosso serviço de <strong>atendimento urgente</strong> visa a intervenção legal imediata, crucial para determinar o destino do conduzido. <br/><br/> <strong>• • Comunicação Imediata:</strong> Aconselhamento legal no momento da prisão. <br/><br/> <strong>• • Defesa em Audiência de Custódia: </strong> Atuação imediata perante o juiz para buscar o <strong>relaxamento da prisão,</strong> a concessão da <strong>liberdade provisória</strong> (com ou sem fiança) ou a substituição da prisão por medidas cautelares diversas.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "Direito do Consumidor",
-      "subtitle": "Auxílio rápido para problemas com compras e serviços.",
-      "description": "A_Definir",
+      "title": "Divórcio",
+      "subtitle": "Orientação e Condução de Processos Consensuais e Litigiosos.",
+      "description": "O <strong>divórcio</strong> é o encerramento legal do vínculo matrimonial. Buscamos conduzir o processo de forma a minimizar o desgaste emocional e o tempo de espera.<br/><br/> <strong>• Divórcio Consensual:</strong> Quando há acordo entre as partes, o processo pode ser rápido e realizado em cartório (extrajudicial) ou na justiça.<br/><br/> <strong>• Divórcio Litigioso:</strong> Quando há desacordo sobre a partilha de bens, guarda ou pensão, defendemos os interesses do cliente em juízo.<br/><br/> <strong>• Mediação:</strong> Atuamos na busca por soluções negociadas para evitar a via judicial, sempre que possível.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
     "card6": {
-      "title": "Direito Previdenciário",
-      "subtitle": "Suporte em benefícios e direitos junto ao INSS.",
-      "description": "A_Definir",
+      "title": "Guarda",
+      "subtitle": "Regulamentação, Modificação e Execução de Guarda de Filhos.",
+      "description": "A guarda dos filhos é um dos temas mais sensíveis e importantes do Direito de Família. Nosso foco é a defesa do <strong>melhor interesse da criança e do adolescente</strong>, buscando o tipo de guarda mais adequado. <br/><br/> <strong>• • Regulamentação e Modificação:</strong> Ajuizamento de ações para estabelecer ou alterar o tipo de guarda (compartilhada ou unilateral) e a definição do regime de convivência (visitas). <br/><br/> <strong>• • Execução de Guarda:</strong> Medidas judiciais para fazer cumprir o que foi determinado em sentença ou acordo.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
     "card7": {
-      "title": "Direito Eleitoral",
-      "subtitle": "Orientação e defesa em questões relacionadas a candidaturas e eleições.",
-      "description": "A_Definir",
+      "title": "Pensão",
+      "subtitle": "Ações de Alimentos, Revisão, Execução e Exoneração.",
+      "description": "As ações de <strong>alimentos (pensão alimentícia)</strong> visam garantir o sustento de quem necessita, seja filhos, ex-cônjuges ou outros dependentes legais. <br/><br/> <strong>• • Ação de Alimentos:</strong> Pedido de fixação do valor da pensão, considerando o binômio <strong>necessidade</strong> do alimentando e <strong>possibilidade</strong> do alimentante. <br/><br/> <strong>• • Revisão e Exoneração:</strong> Ações para modificar o valor (aumentar ou diminuir) ou extinguir a obrigação de pagar a pensão, em caso de mudança financeira ou alcance da maioridade/independência do beneficiário. <br/><br/> <strong>• • Execução:</strong> Medidas para cobrar valores atrasados, incluindo a possibilidade de <strong>prisão civil</strong> do devedor (no caso de pensão alimentícia).",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
     "card8": {
+      "title": "Inventário, Partilha e Testamento",
+      "subtitle": "Planejamento Sucessório, Inventário Judicial e Extrajudicial.",
+      "description": "O Direito das Sucessões trata da transferência do patrimônio (herança) após o falecimento. Atuamos para garantir que a divisão seja feita de forma justa e legal. <br/><br/>  <strong>• Inventário Judicial e Extrajudicial:</strong> Condução do processo para levantar, avaliar e distribuir os bens do falecido, seja no âmbito judicial (obrigatório se houver menores, incapazes ou litígio) ou em cartório (extrajudicial, quando há consenso e herdeiros capazes). <br/><br/> <strong>• Planejamento Sucessório:</strong> Orientação e elaboração de instrumentos como <strong>testamentos, doações e holdings familiares</strong> para organizar a sucessão em vida, reduzir custos e evitar conflitos futuros.",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "Entenda"
+    },
+    "card9": {
       "title": "Consultoria Jurídica",
-      "subtitle": "Análise estratégica e orientação para decisões seguras no dia a dia.",
-      "description": "A_Definir",
+      "subtitle": "Análise de Riscos, Pareceres e Prevenção de Litígios.",
+      "description": "A <strong>Consultoria Jurídica</strong> é um serviço proativo focado na prevenção de problemas. Em vez de remediar litígios, atuamos para evitar que eles aconteçam. <br/><br/>  <strong>• Análise de Riscos:</strong> Identificação e avaliação de vulnerabilidades legais em contratos, operações e rotinas de empresas ou pessoas físicas. <br/><br/> <strong>• Elaboração de Pareceres:</strong> Respostas técnicas e detalhadas a consultas jurídicas complexas. <br/><br/> <strong>• Contratos:</strong> Revisão e elaboração de contratos para garantir a segurança jurídica em todas as transações.",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "Entenda"
+    },
+    "card10": {
+      "title": "Direito do Consumidor",
+      "subtitle": "Defesa em Questões de Produtos, Serviços e Cobranças.",
+      "description": "O <strong>Direito do Consumidor</strong> protege a parte mais vulnerável nas relações de consumo: o cidadão. Atuamos na defesa dos direitos violados por fornecedores de produtos e serviços. <br/><br/>  <strong>• Defeitos e Vícios:</strong> Ações por produtos ou serviços defeituosos ou inadequados. <br/><br/> <strong>• Cobranças Indevidas e Abusivas:</strong> Contestação e pedidos de indenização por práticas de cobrança ilegais ou abusos contratuais (juros excessivos, cláusulas abusivas, etc.). <br/><br/> <strong>• Indenizações:</strong> Busca por reparação material e moral por danos causados pela má prestação de serviços (companhias aéreas, bancos, telecomunicações, etc.).",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "Entenda"
+    },
+    "card11": {
+      "title": "Direito Administrativo",
+      "subtitle": "Servidor Público, Licitações, Concursos e Processos.",
+      "description": "O <strong>Direito Administrativo</strong> rege as relações entre o cidadão e a <strong>Administração Pública</strong> (Governos, Prefeituras, Autarquias). Atuamos na defesa de direitos e interesses perante o poder público. <br/><br/>  <strong>• Servidores Públicos:</strong> Acompanhamento de Processos Administrativos Disciplinares (PAD), defesa em ações de improbidade e busca por direitos funcionais. <br/><br/> <strong>• Licitações e Contratos: </strong> Consultoria e representação de empresas em processos licitatórios e na execução de contratos administrativos. <br/><br/> <strong>• Concursos Públicos:</strong> Ingresso com medidas judiciais contra ilegalidades em editais, eliminação indevida de candidatos e questões de nomeação.",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "Entenda"
+    },
+    "card12": {
+      "title": "Direito Trabalhista",
+      "subtitle": "Reclamações, Defesas e Acordos para Empresas e Empregados.",
+      "description": "O <strong>Direito Trabalhista</strong> disciplina as relações de trabalho entre empregados e empregadores. Nossa atuação é estratégica tanto para quem busca direitos quanto para quem precisa de defesa. <strong>Para Empregados:</strong> Ingresso com Reclamações Trabalhistas para buscar o reconhecimento de direitos como horas extras, insalubridade, adicional noturno, verbas rescisórias e justa causa indevida. <br/><br/>  <strong>• Para Empresas: </strong> Defesa em ações trabalhistas, consultoria preventiva para adequação à CLT (Consolidação das Leis do Trabalho) e elaboração de acordos.",
+      "buttonLabelModal": "A_Definir",
+      "buttonLabel": "Entenda"
+    },
+    "card13": {
+      "title": "Direito Previdenciário",
+      "subtitle": "Aposentadorias, Benefícios, Revisões e Recursos ao INSS.",
+      "description": "O <strong>Direito Previdenciário</strong> trata dos benefícios pagos pelo Instituto Nacional do Seguro Social <strong>(INSS)</strong>. Atuamos para garantir que você tenha acesso ao benefício mais vantajoso e adequado ao seu histórico de contribuição. <br/><br/>  <strong>• Aposentadorias:</strong> Planejamento e solicitação de aposentadoria por tempo de contribuição, por idade e especial. <br/><br/> <strong>• Benefícios por Incapacidade:</strong> Pedidos e recursos para concessão ou restabelecimento de Auxílio-Doença (Auxílio por Incapacidade Temporária) e Aposentadoria por Invalidez (Aposentadoria por Incapacidade Permanente). <br/><br/> <strong>• Revisões e Recursos:</strong> Análise do histórico de benefícios e ingresso com recursos administrativos e ações judiciais para aumentar o valor da aposentadoria ou do benefício.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     }
