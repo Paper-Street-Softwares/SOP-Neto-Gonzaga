@@ -47,11 +47,21 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.webp";
 import {
   Briefcase,
   BriefcaseBusiness,
+  Cctv,
   ChartArea,
+  Coins,
+  FileCheck,
   Gavel,
+  Landmark,
+  MapIcon,
   MessageCircle,
+  MessageSquare,
   Scale,
+  ScrollText,
+  ShieldCheck,
   ShoppingCart,
+  Split,
+  Timer,
   Vote,
 } from "lucide-react";
 import { Users } from "lucide-react";
@@ -75,7 +85,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Dr. Neto Gonzaga",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "neto.gonzaga@hotmail.com", // Email desejado pelo cliente
   domain: "A_Definir", // Sem "www"
   phone: {
     ddd: "15",
@@ -233,7 +243,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
-        icon: <Users />,
+        icon: <Gavel />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -250,7 +260,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
-        icon: <Scale />,
+        icon: <ShieldCheck />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -266,7 +276,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
-        icon: <BriefcaseBusiness />,
+        icon: <Scale />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -283,7 +293,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <FileText />,
+        icon: <Cctv />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -300,7 +310,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <ShoppingCart />,
+        icon: <Timer />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -317,7 +327,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <Gavel />,
+        icon: <Split />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -334,7 +344,7 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <Vote />,
+        icon: <Users />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -351,7 +361,92 @@ const content = {
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <MessageCircle />,
+        icon: <Coins />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card9: {
+        img: 3,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: <ScrollText />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card10: {
+        img: 3,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: <ShoppingCart />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card11: {
+        img: 3,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: <MessageSquare />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card12: {
+        img: 3,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: <Landmark />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card13: {
+        img: 3,
+        title: "A_Definir",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: <Briefcase />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },

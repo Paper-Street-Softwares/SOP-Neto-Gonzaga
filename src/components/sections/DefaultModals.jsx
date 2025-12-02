@@ -62,7 +62,6 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
       <SectionWrapper>
         <div className="flex flex-col justify-center items-center tablet1:items-center w-full gap-6 tablet1:gap-6 desktop1:gap-6">
           {/* Coluna esquerda */}
-
           <div className="flex flex-wrap gap-4 justify-center">
             <MotionDivDownToUp>
               <IconButtonFeatureCard
@@ -73,23 +72,6 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
-                  // icon={
-                  //   <svg
-                  //     xmlns="http://www.w3.org/2000/svg"
-                  //     width="18"
-                  //     height="18"
-                  //     viewBox="0 0 24 24"
-                  //     fill="none"
-                  //     stroke="black"
-                  //     strokeWidth="2"
-                  //     strokeLinecap="round"
-                  //     strokeLinejoin="round"
-                  //     className="lucide lucide-corner-down-right"
-                  //   >
-                  //     <path d="m15 10 5 5-5 5" />
-                  //     <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                  //   </svg>
-                  // }
                   size="small"
                   className=" mt-4"
                   labelColor="text-black"
@@ -108,23 +90,6 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 colorMode={colorMode}
               >
                 <Button
-                  // icon={
-                  //   <svg
-                  //     xmlns="http://www.w3.org/2000/svg"
-                  //     width="18"
-                  //     height="18"
-                  //     viewBox="0 0 24 24"
-                  //     fill="none"
-                  //     stroke="black"
-                  //     strokeWidth="2"
-                  //     strokeLinecap="round"
-                  //     strokeLinejoin="round"
-                  //     className="lucide lucide-corner-down-right"
-                  //   >
-                  //     <path d="m15 10 5 5-5 5" />
-                  //     <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                  //   </svg>
-                  // }
                   size="small"
                   className=" mt-4"
                   labelColor="text-black"
@@ -134,9 +99,6 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
-          </div>
-          <div className="flex flex-wrap gap-4 justify-center">
-            {" "}
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card3.icon}
@@ -151,30 +113,14 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 className={textClass}
                 colorMode={colorMode}
               >
-                {/* <Button
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="white"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
+                <Button
                   size="small"
-                  className="bg-darker"
-                  labelColor="text-white"
-                  label={t("features.card4.buttonLabel")}
-                  onClick={() => openModal(4)}
-                /> */}
+                  className=" mt-4"
+                  labelColor="text-black"
+                  color="bg-transparent"
+                  label={t("features.card3.buttonLabel")}
+                  onClick={() => openModal(3)}
+                />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
             <MotionDivDownToUp>
@@ -185,30 +131,14 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 className={textClass}
                 colorMode={colorMode}
               >
-                {/* <Button
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="white"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
+                <Button
                   size="small"
-                  className="bg-darker"
-                  labelColor="text-white"
-                  label={t("features.card3.buttonLabel")}
-                  onClick={() => openModal(3)}
-                /> */}
+                  className=" mt-4"
+                  labelColor="text-black"
+                  color="bg-transparent"
+                  label={t("features.card4.buttonLabel")}
+                  onClick={() => openModal(4)}
+                />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
             <MotionDivDownToUp>
@@ -225,30 +155,14 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 className={textClass}
                 colorMode={colorMode}
               >
-                {/* <Button
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="white"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
+                <Button
                   size="small"
-                  className="bg-darker"
-                  labelColor="text-white"
+                  className=" mt-4"
+                  labelColor="text-black"
+                  color="bg-transparent"
                   label={t("features.card5.buttonLabel")}
-                  onClick={() => openModal(4)}
-                /> */}
+                  onClick={() => openModal(5)}
+                />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
             <MotionDivDownToUp>
@@ -265,30 +179,14 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 className={textClass}
                 colorMode={colorMode}
               >
-                {/* <Button
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="white"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
+                <Button
                   size="small"
-                  className="bg-darker"
-                  labelColor="text-white"
-                  label={t("features.card4.buttonLabel")}
-                  onClick={() => openModal(4)}
-                /> */}
+                  className=" mt-4"
+                  labelColor="text-black"
+                  color="bg-transparent"
+                  label={t("features.card6.buttonLabel")}
+                  onClick={() => openModal(6)}
+                />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>{" "}
             <MotionDivDownToUp>
@@ -305,30 +203,14 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 className={textClass}
                 colorMode={colorMode}
               >
-                {/* <Button
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="white"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
+                <Button
                   size="small"
-                  className="bg-darker"
-                  labelColor="text-white"
-                  label={t("features.card4.buttonLabel")}
-                  onClick={() => openModal(4)}
-                /> */}
+                  className=" mt-4"
+                  labelColor="text-black"
+                  color="bg-transparent"
+                  label={t("features.card7.buttonLabel")}
+                  onClick={() => openModal(7)}
+                />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>{" "}
             <MotionDivDownToUp>
@@ -345,33 +227,137 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                 className={textClass}
                 colorMode={colorMode}
               >
-                {/* <Button
-                  icon={
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="18"
-                      height="18"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="white"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="lucide lucide-corner-down-right"
-                    >
-                      <path d="m15 10 5 5-5 5" />
-                      <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                    </svg>
-                  }
+                <Button
                   size="small"
-                  className="bg-darker"
-                  labelColor="text-white"
-                  label={t("features.card4.buttonLabel")}
-                  onClick={() => openModal(4)}
-                /> */}
+                  className=" mt-4"
+                  labelColor="text-black"
+                  color="bg-transparent"
+                  label={t("features.card8.buttonLabel")}
+                  onClick={() => openModal(8)}
+                />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>{" "}
-          </div>
+            <MotionDivDownToUp>
+              <IconButtonFeatureCard
+                icon={content.texts.features.card9.icon}
+                title={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t(`features.card9.title`),
+                    }}
+                  />
+                }
+                paragraph={t("features.card9.subtitle")}
+                className={textClass}
+                colorMode={colorMode}
+              >
+                <Button
+                  size="small"
+                  className=" mt-4"
+                  labelColor="text-black"
+                  color="bg-transparent"
+                  label={t("features.card9.buttonLabel")}
+                  onClick={() => openModal(9)}
+                />
+              </IconButtonFeatureCard>
+            </MotionDivDownToUp>{" "}
+            <MotionDivDownToUp>
+              <IconButtonFeatureCard
+                icon={content.texts.features.card10.icon}
+                title={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t(`features.card10.title`),
+                    }}
+                  />
+                }
+                paragraph={t("features.card10.subtitle")}
+                className={textClass}
+                colorMode={colorMode}
+              >
+                <Button
+                  size="small"
+                  className=" mt-4"
+                  labelColor="text-black"
+                  color="bg-transparent"
+                  label={t("features.card10.buttonLabel")}
+                  onClick={() => openModal(10)}
+                />
+              </IconButtonFeatureCard>
+            </MotionDivDownToUp>{" "}
+            <MotionDivDownToUp>
+              <IconButtonFeatureCard
+                icon={content.texts.features.card11.icon}
+                title={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t(`features.card11.title`),
+                    }}
+                  />
+                }
+                paragraph={t("features.card11.subtitle")}
+                className={textClass}
+                colorMode={colorMode}
+              >
+                <Button
+                  size="small"
+                  className=" mt-4"
+                  labelColor="text-black"
+                  color="bg-transparent"
+                  label={t("features.card11.buttonLabel")}
+                  onClick={() => openModal(11)}
+                />
+              </IconButtonFeatureCard>
+            </MotionDivDownToUp>{" "}
+            <MotionDivDownToUp>
+              <IconButtonFeatureCard
+                icon={content.texts.features.card12.icon}
+                title={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t(`features.card12.title`),
+                    }}
+                  />
+                }
+                paragraph={t("features.card12.subtitle")}
+                className={textClass}
+                colorMode={colorMode}
+              >
+                <Button
+                  size="small"
+                  className=" mt-4"
+                  labelColor="text-black"
+                  color="bg-transparent"
+                  label={t("features.card12.buttonLabel")}
+                  onClick={() => openModal(12)}
+                />
+              </IconButtonFeatureCard>
+            </MotionDivDownToUp>{" "}
+            <MotionDivDownToUp>
+              <IconButtonFeatureCard
+                icon={content.texts.features.card13.icon}
+                title={
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t(`features.card13.title`),
+                    }}
+                  />
+                }
+                paragraph={t("features.card13.subtitle")}
+                className={textClass}
+                colorMode={colorMode}
+              >
+                <Button
+                  size="small"
+                  className=" mt-4"
+                  labelColor="text-black"
+                  color="bg-transparent"
+                  label={t("features.card13.buttonLabel")}
+                  onClick={() => openModal(13)}
+                />
+              </IconButtonFeatureCard>
+            </MotionDivDownToUp>{" "}
+          </div>{" "}
         </div>
       </SectionWrapper>
 

@@ -41,6 +41,14 @@ body {
 /* fim da shapeDiv */
 
 @font-face {
+  font-family: "Verdana";
+  src: url("/src/assets/fonts/Verdana.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Poppins";
   src: url("/src/assets/fonts/Poppins-Regular.woff2") format("woff2");
   font-weight: 400;
@@ -255,4 +263,11 @@ body {
   width: 50px !important; /* Tamanho fixo do botão */
   height: 50px !important;
   flex-shrink: 0 !important; /* Impede que o botão diminua se o tooltip aumentar */
+}
+
+.text-texture {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent !important;
+  display: inline-block; /* ESSENCIAL */
 }

@@ -9,6 +9,7 @@ export const theme = {
       buttonColor: "#545452",
       minititleDark: "#161614", //bg minitag de seções claras
       minititle: "#545452", //bg minitag de seções escuras
+      colorTextHero: "#D0D0D0",
 
       secondary: "#000000",
 
@@ -54,9 +55,9 @@ export const theme = {
       "custom-opacityButton": "-5px 5px 0px", // 30% de opacidade no Botão
     },
     fontFamily: {
-      mainFont: ["Merriweather", "sans-serif"],
+      mainFont: ["Verdana", "sans-serif"],
       // mainFont: ["Poppins", "sans-serif"],
-      secondFont: ["Roboto", "sans-serif"],
+      secondFont: ["Verdana", "sans-serif"],
       league: ["League Gothic"],
       barlow: ["Barlow Condensed"],
     },
@@ -102,6 +103,9 @@ export const theme = {
     animation: {
       "slide-down": "slideDown 1s ease",
       "slide-up": "slideUp 1s ease",
+    },
+    backgroundImage: {
+      textura: "url('/texturaHero.jpg')", // coloque o nome da imagem que você baixou
     },
   },
 };
