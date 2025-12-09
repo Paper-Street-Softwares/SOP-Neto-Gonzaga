@@ -225,31 +225,31 @@
     "questions": {
       "question1": {
         "question": "Como funciona a primeira consulta com o advogado?",
-        "answer": "A primeira consulta dura cerca de 30-60 minutos e serve para entender seu caso, avaliar documentos iniciais e esclarecer dúvidas. É presencial ou online (via Zoom ou WhatsApp). Ao final, indicamos os próximos passos e orçamento personalizado."
+        "answer": "A primeira consulta serve para entender seu caso, avaliar documentos iniciais e esclarecer dúvidas. Ela pode ser presencial ou online (via WhatsApp). Ao final, indicamos os próximos passos e orçamento personalizado."
       },
       "question2": {
         "question": "Quais documentos preciso levar na primeira reunião?",
-        "answer": "Leve identidade, CPF, comprovantes de residência, contratos ou sentenças relevantes ao caso, e qualquer correspondência judicial. Para ações de família, inclua certidões de nascimento/casamento; em trabalhistas, carteira de trabalho. Envie por whatsapp ou e-mail antes para agilizar."
+        "answer": "Identidade, CPF, comprovantes de residência, todo documento referente ao caso que sirva para comprovar o pedido, além de contratos ou sentenças relevantes ao caso, e qualquer correspondência judicial. Para ações na área de família, é importante apresentar certidões de nascimento e/ou casamento; em trabalhistas, carteira de trabalho. O envio pode ser whatsapp para agilizar."
       },
       "question3": {
         "question": "Quanto custa contratar o escritório e como são feitos os honorários?",
-        "answer": "Os honorários variam por complexidade, com opções de parcelamento e sucesso (percentual sobre o ganho). Cobramos consulta inicial que será descontada dos honorários em caso de contratação e enviamos proposta detalhada. Transparência total, conforme tabela OAB."
+        "answer": "Os honorários variam por complexidade, com opções de parcelamento. Eventualmente, em casos pontuais (como trabalhista, previdenciário, etc), trabalhamos com a possibilidade de recebimento mediante sucesso (percentual sobre o ganho). Cobramos consulta inicial que será descontada dos honorários em caso de contratação e enviamos proposta detalhada. "
       },
       "question4": {
         "question": "Em quanto tempo terei uma resposta ou andamento no meu processo?",
-        "answer": "Depende do tipo: petições iniciais saem em 1-5 dias úteis; Poderá acompanhar via whatsapp. Priorizamos agilidade, mas prazos judiciais são controlados pelo tribunal."
+        "answer": "Depende do tipo da ação. Se tratar-se de Contestação, será dentro do prazo legal estipulado em lei (geralmente 5 a 15 dias úteis). Se tratar-se de petições iniciais, o prazo para ingresso pode variar de 1 a 15 dias úteis, dependendo da complexidade. Importante destacar que o prazo se inicia após a entrega de toda a documentação necessária e exigida."
       },
       "question5": {
-        "question": "O escritório atende somente em Itapeva - SP ou também de forma online?",
-        "answer": "Atendemos todo o Brasil, via online (videoconferência). Para casos presenciais, atuamos em comarcas locais via parcerias. Peça agendamento pelo site ou WhatsApp."
+        "question": "O escritório atende somente na cidade de Itapeva - SP ou também de forma online?",
+        "answer": "Atendemos todo o Brasil, via online (videoconferência). Na Comarca de Itapeva-SP ou em comarcas próximas, atendemos presencialmente, podendo ser via parcerias ou não. Peça agendamento pelo site ou WhatsApp."
       },
       "question6": {
         "question": "Posso enviar meus documentos e tirar dúvidas por WhatsApp, e-mail ou videoconferência?",
-        "answer": "Sim, usamos WhatsApp para envio rápido de arquivos (até 100MB) e dúvidas iniciais, e-mail para formalidades e Zoom para consultas. Resposta em até 24h úteis. Garantimos sigilo total."
+        "answer": "Sim, usamos WhatsApp para envio rápido de arquivos, dúvidas iniciais, formalidades e para consultas. Respondemos o mais breve possível. Garantimos sigilo total."
       },
       "question7": {
         "question": "Como posso acompanhar o andamento do meu processo?",
-        "answer": "Pelo portal do tribunal (acesso por login ou senha), WhatsApp atualizações ou relatórios pontuais sempre que necessário. Enviamos número do processo para consulta direta no TJ. Transparência em tempo real."
+        "answer": "Pelo portal do Tribunal de Justiça (acesso por login ou senha) ou envio via WhatsApp de atualizações ou relatórios pontuais sempre que necessário. Enviamos número do processo para consulta direta no TJ."
       },
       "question8": {
         "question": "O que acontece se eu não tiver condições de pagar todas as custas do processo?",
@@ -257,7 +257,7 @@
       },
       "question9": {
         "question": "Em quais áreas do Direito o escritório atua?",
-        "answer": "Atuamos nas mais diversas áreas do Direito com mais de 20 anos de experiência, com foco em resultados práticos."
+        "answer": "Atuamos em todas as áreas do Direito com mais de 20 anos de experiência, com foco em resultados práticos."
       },
       "question10": {
         "question": "O escritório garante o sigilo das informações do meu caso?",
@@ -265,7 +265,7 @@
       },
       "question11": {
         "question": "Como faço para marcar uma consulta ou pedir um orçamento?",
-        "answer": "Pelo formulário do site, WhatsApp (link no rodapé) ou telefone. Resposta em horas. Orçamento gratuito e sem compromisso."
+        "answer": "Por WhatsApp (através do link desta página) ou por telefone. Retornaremos o mais rápido possível, inclusive finais de semana e feriados. Atendimento 24 horas."
       }
     },
     "paragraph": "Clique aqui caso tenha mais dúvidas"
