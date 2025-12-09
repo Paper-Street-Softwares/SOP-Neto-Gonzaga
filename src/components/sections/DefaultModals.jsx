@@ -1,24 +1,24 @@
-import { useState } from "react";
-import { useTranslation } from "react-i18next";
-import { Dialog } from "primereact/dialog";
-import { X } from "lucide-react";
-import content from "../../content/content";
-import Button from "../interactives/Button";
-import SectionArea from "../sectionElements/SectionArea";
-import SectionHeader from "../sectionElements/SectionHeader";
-import SectionWrapper from "../sectionElements/SectionWrapper";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
+import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
+import { Dialog } from 'primereact/dialog'
+import { X } from 'lucide-react'
+import content from '../../content/content'
+import Button from '../interactives/Button'
+import SectionArea from '../sectionElements/SectionArea'
+import SectionHeader from '../sectionElements/SectionHeader'
+import SectionWrapper from '../sectionElements/SectionWrapper'
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import IconButtonFeatureCard from '../cards/IconButtonFeatureCard'
 
 export default function FeaturesParagraphs({ colorMode, modal }) {
-  const { t } = useTranslation();
-  const [visible, setVisible] = useState(false);
-  const [modalTitle, setModalTitle] = useState("");
-  const [modalContent, setModalContent] = useState("");
+  const { t } = useTranslation()
+  const [visible, setVisible] = useState(false)
+  const [modalTitle, setModalTitle] = useState('')
+  const [modalContent, setModalContent] = useState('')
 
   const openModal = (cardNum) => {
-    const card = content.texts.features[`card${cardNum}`];
-    setModalTitle(t(`features.card${cardNum}.title`));
+    const card = content.texts.features[`card${cardNum}`]
+    setModalTitle(t(`features.card${cardNum}.title`))
 
     setModalContent(
       <div className="text-paragraph3">
@@ -28,31 +28,31 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
           }}
         />
       </div>
-    );
+    )
 
-    setVisible(true);
-  };
+    setVisible(true)
+  }
 
   const bgClasses = {
-    dark: "bg-bgSectionOpacityDark",
-    light: "bg-bgSectionOpacityLight",
-    default: "squares",
-  };
+    dark: 'bg-bgSectionOpacityDark',
+    light: 'bg-bgSectionOpacityLight',
+    default: 'squares',
+  }
   const textClasses = {
-    dark: "text-white",
-    light: "text-black",
-    default: "text-black",
-  };
-  const bgClass = bgClasses[colorMode] || bgClasses.default;
-  const textClass = textClasses[colorMode] || textClasses.default;
+    dark: 'text-white',
+    light: 'text-black',
+    default: 'text-black',
+  }
+  const bgClass = bgClasses[colorMode] || bgClasses.default
+  const textClass = textClasses[colorMode] || textClasses.default
 
   return (
     <SectionArea id="service" className={`${bgClass}`} paddingbot={true}>
       <SectionHeader
         className={`text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px] ${textClass}`}
-        miniTitle={t("features.miniTag")}
-        sectionHeaderTitle={t("features.title")}
-        sectionHeaderSubtitle={t("features.subtitle")}
+        miniTitle={t('features.miniTag')}
+        sectionHeaderTitle={t('features.title')}
+        sectionHeaderSubtitle={t('features.subtitle')}
         titleColorSet={textClass}
         subtitleColorSet={textClass}
         colorMode={colorMode}
@@ -66,8 +66,8 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card1.icon}
-                title={t("features.card1.title")}
-                paragraph={t("features.card1.subtitle")}
+                title={t('features.card1.title')}
+                paragraph={t('features.card1.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -76,7 +76,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card1.buttonLabel")}
+                  label={t('features.card1.buttonLabel')}
                   onClick={() => openModal(1)}
                 />
               </IconButtonFeatureCard>
@@ -84,8 +84,8 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card2.icon}
-                title={t("features.card2.title")}
-                paragraph={t("features.card2.subtitle")}
+                title={t('features.card2.title')}
+                paragraph={t('features.card2.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -94,7 +94,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card2.buttonLabel")}
+                  label={t('features.card2.buttonLabel')}
                   onClick={() => openModal(2)}
                 />
               </IconButtonFeatureCard>
@@ -109,7 +109,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                     }}
                   />
                 }
-                paragraph={t("features.card3.subtitle")}
+                paragraph={t('features.card3.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -118,16 +118,16 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card3.buttonLabel")}
+                  label={t('features.card3.buttonLabel')}
                   onClick={() => openModal(3)}
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
-            <MotionDivDownToUp>
+            {/* <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card4.icon}
-                title={t("features.card4.title")}
-                paragraph={t("features.card4.subtitle")}
+                title={t('features.card4.title')}
+                paragraph={t('features.card4.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -136,11 +136,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card4.buttonLabel")}
+                  label={t('features.card4.buttonLabel')}
                   onClick={() => openModal(4)}
                 />
               </IconButtonFeatureCard>
-            </MotionDivDownToUp>
+            </MotionDivDownToUp> */}
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card5.icon}
@@ -151,7 +151,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                     }}
                   />
                 }
-                paragraph={t("features.card5.subtitle")}
+                paragraph={t('features.card5.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -160,12 +160,12 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card5.buttonLabel")}
+                  label={t('features.card5.buttonLabel')}
                   onClick={() => openModal(5)}
                 />
               </IconButtonFeatureCard>
             </MotionDivDownToUp>
-            <MotionDivDownToUp>
+            {/* <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card6.icon}
                 title={
@@ -175,7 +175,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                     }}
                   />
                 }
-                paragraph={t("features.card6.subtitle")}
+                paragraph={t('features.card6.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -184,11 +184,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card6.buttonLabel")}
+                  label={t('features.card6.buttonLabel')}
                   onClick={() => openModal(6)}
                 />
               </IconButtonFeatureCard>
-            </MotionDivDownToUp>{" "}
+            </MotionDivDownToUp>{' '}
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card7.icon}
@@ -199,7 +199,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                     }}
                   />
                 }
-                paragraph={t("features.card7.subtitle")}
+                paragraph={t('features.card7.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -208,11 +208,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card7.buttonLabel")}
+                  label={t('features.card7.buttonLabel')}
                   onClick={() => openModal(7)}
                 />
               </IconButtonFeatureCard>
-            </MotionDivDownToUp>{" "}
+            </MotionDivDownToUp>{' '} */}
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card8.icon}
@@ -223,7 +223,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                     }}
                   />
                 }
-                paragraph={t("features.card8.subtitle")}
+                paragraph={t('features.card8.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -232,11 +232,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card8.buttonLabel")}
+                  label={t('features.card8.buttonLabel')}
                   onClick={() => openModal(8)}
                 />
               </IconButtonFeatureCard>
-            </MotionDivDownToUp>{" "}
+            </MotionDivDownToUp>{' '}
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card9.icon}
@@ -247,7 +247,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                     }}
                   />
                 }
-                paragraph={t("features.card9.subtitle")}
+                paragraph={t('features.card9.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -256,11 +256,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card9.buttonLabel")}
+                  label={t('features.card9.buttonLabel')}
                   onClick={() => openModal(9)}
                 />
               </IconButtonFeatureCard>
-            </MotionDivDownToUp>{" "}
+            </MotionDivDownToUp>{' '}
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card10.icon}
@@ -271,7 +271,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                     }}
                   />
                 }
-                paragraph={t("features.card10.subtitle")}
+                paragraph={t('features.card10.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -280,11 +280,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card10.buttonLabel")}
+                  label={t('features.card10.buttonLabel')}
                   onClick={() => openModal(10)}
                 />
               </IconButtonFeatureCard>
-            </MotionDivDownToUp>{" "}
+            </MotionDivDownToUp>{' '}
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card11.icon}
@@ -295,7 +295,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                     }}
                   />
                 }
-                paragraph={t("features.card11.subtitle")}
+                paragraph={t('features.card11.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -304,11 +304,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card11.buttonLabel")}
+                  label={t('features.card11.buttonLabel')}
                   onClick={() => openModal(11)}
                 />
               </IconButtonFeatureCard>
-            </MotionDivDownToUp>{" "}
+            </MotionDivDownToUp>{' '}
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card12.icon}
@@ -319,7 +319,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                     }}
                   />
                 }
-                paragraph={t("features.card12.subtitle")}
+                paragraph={t('features.card12.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -328,11 +328,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card12.buttonLabel")}
+                  label={t('features.card12.buttonLabel')}
                   onClick={() => openModal(12)}
                 />
               </IconButtonFeatureCard>
-            </MotionDivDownToUp>{" "}
+            </MotionDivDownToUp>{' '}
             <MotionDivDownToUp>
               <IconButtonFeatureCard
                 icon={content.texts.features.card13.icon}
@@ -343,7 +343,7 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                     }}
                   />
                 }
-                paragraph={t("features.card13.subtitle")}
+                paragraph={t('features.card13.subtitle')}
                 className={textClass}
                 colorMode={colorMode}
               >
@@ -352,12 +352,12 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
                   className=" mt-4"
                   labelColor="text-black"
                   color="bg-transparent"
-                  label={t("features.card13.buttonLabel")}
+                  label={t('features.card13.buttonLabel')}
                   onClick={() => openModal(13)}
                 />
               </IconButtonFeatureCard>
-            </MotionDivDownToUp>{" "}
-          </div>{" "}
+            </MotionDivDownToUp>{' '}
+          </div>{' '}
         </div>
       </SectionWrapper>
 
@@ -372,11 +372,11 @@ export default function FeaturesParagraphs({ colorMode, modal }) {
         }
         visible={visible}
         onHide={() => setVisible(false)}
-        style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "300px", "1024px": "300px", "641px": "300px" }}
+        style={{ width: '50vw' }}
+        breakpoints={{ '4000px': '500px', '1024px': '500px', '641px': '350px' }}
       >
         {modalContent}
       </Dialog>
     </SectionArea>
-  );
+  )
 }

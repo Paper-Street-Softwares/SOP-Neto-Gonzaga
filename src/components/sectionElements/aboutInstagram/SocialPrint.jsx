@@ -1,6 +1,6 @@
-import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
+import MotionDivDownToUp from '../../animation/MotionDivDownToUp'
 
-import content from "../../../content/content";
+import content from '../../../content/content'
 function SocialPrint() {
   return (
     <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center ">
@@ -12,12 +12,12 @@ function SocialPrint() {
         <img
           src={content.texts.about.aboutSocial.img.img}
           alt={content.texts.about.aboutSocial.img.alt}
-          className="w-[100%] desktop1:w-[415px] desktop2:w-[485px]"
+          className="w-[90%] m-auto desktop1:w-[415px] shadow-custom-opacity shadow-shadowAbouts/10 rounded-xl desktop2:w-[485px]"
           loading="lazy"
         />
       </picture>
     </MotionDivDownToUp>
-  );
+  )
 }
 
-export default SocialPrint;
+export default SocialPrint
