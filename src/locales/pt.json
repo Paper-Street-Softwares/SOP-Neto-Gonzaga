@@ -19,10 +19,10 @@
   "hero": {
     "miniTag": "ADVOGADO EM ITAPEVA - SP",
     "title": "Mais de <span class=\"text-texture font-bold\">duas décadas</span> de experiência",
-    "subtitle": "Atuação sólida no Direito Criminal e Civil, unindo técnica, compromisso e atendimento acolhedor.",
+    "subtitle": "Atuação sólida no Direito Criminal e Civil, unindo técnica e compromisso, com a segurança adicional de suporte abrangente em questões do Consumidor, Administrativas, Trabalhistas e Previdenciárias.",
     "ctaButtonText": "Quero atendimento",
     "obsHero": {
-      "text": "Atendimento apenas com <span class=\" font-bold\">hora marcada.</span>"
+      "text": "Atendimento com <span class=\" font-bold\">hora marcada.</span>"
     }
   },
   "features": {
@@ -44,9 +44,9 @@
       "buttonLabel": "Entenda"
     },
     "card3": {
-      "title": "Acompanhamento à Delegacias",
+      "title": "Acompanhamento à Delegacias e Flagrantes",
       "subtitle": "Suporte Legal Imediato em Ocorrências Policiais.",
-      "description": "A presença de um advogado na delegacia é fundamental para garantir a legalidade dos atos e os direitos do cidadão, seja ele investigado, vítima ou testemunha. O  <strong>suporte legal imediato</strong> em ocorrências policiais é um serviço essencial. <br/><br/> <strong>• Prerrogativa Constitucional:</strong> Assegurar que os direitos do conduzido sejam respeitados, evitando abusos e ilegalidades no momento da oitiva ou interrogatório. <br/><br/> <strong>• Análise da Situação: </strong> Avaliação jurídica imediata da ocorrência para orientar a melhor conduta a ser adotada.",
+      "description": "A presença de um advogado na delegacia é fundamental para garantir a legalidade dos atos e os direitos do cidadão, seja ele investigado, vítima ou testemunha. O <strong>suporte legal imediato</strong> em ocorrências policiais é um serviço essencial. <br/><br/> <strong>• Prerrogativa Constitucional:</strong> Assegurar que os direitos do conduzido sejam respeitados, evitando abusos e ilegalidades no momento da oitiva ou interrogatório. <br/><br/> <strong>• Análise da Situação:</strong> Avaliação jurídica imediata da ocorrência para orientar a melhor conduta a ser adotada. <br/><br/> Ser pego em <strong>flagrante delito</strong> é uma situação de extrema urgência. Nosso serviço de <strong>atendimento urgente</strong> visa a intervenção legal imediata, crucial para determinar o destino do conduzido. <br/><br/> <strong>• Comunicação Imediata: </strong> Aconselhamento legal no momento da prisão. <br/><br/>• <strong>Defesa em Audiência de Custódia:</strong> Atuação imediata perante o juiz para buscar o <strong>relaxamento da prisão</strong>, a concessão da <strong>liberdade provisória</strong> (com ou sem fiança) ou a substituição da prisão por medidas cautelares diversas.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
@@ -59,9 +59,9 @@
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "Divórcio",
-      "subtitle": "Orientação e Condução de Processos Consensuais e Litigiosos.",
-      "description": "O <strong>divórcio</strong> é o encerramento legal do vínculo matrimonial. Buscamos conduzir o processo de forma a minimizar o desgaste emocional e o tempo de espera.<br/><br/> <strong>• Divórcio Consensual:</strong> Quando há acordo entre as partes, o processo pode ser rápido e realizado em cartório (extrajudicial) ou na justiça.<br/><br/> <strong>• Divórcio Litigioso:</strong> Quando há desacordo sobre a partilha de bens, guarda ou pensão, defendemos os interesses do cliente em juízo.<br/><br/> <strong>• Mediação:</strong> Atuamos na busca por soluções negociadas para evitar a via judicial, sempre que possível.",
+      "title": "Direito de Família e Sucessões",
+      "subtitle": "Cuidamos da sua vida afetiva e patrimonial, garantindo que tudo corra bem.",
+      "description": "<strong>Divórcio: Encerramento Legal do Vínculo Matrimonial</strong><br/>Conduzimos o processo de divórcio buscando minimizar o desgaste emocional e o tempo de espera.<br/><br/> <strong>• Divórcio Consensual:</strong> Ocorre quando há <strong>acordo</strong> entre as partes. Pode ser realizado de forma <strong>rápida e extrajudicial</strong> (em cartório) ou na justiça, quando há filhos menores ou incapazes.<br/><br/> <strong>• Divórcio Litigioso:</strong> Ocorre quando há <strong>desacordo</strong> sobre questões como partilha de bens, guarda ou pensão. Nesses casos, defendemos os interesses do cliente em juízo.<br/><br/> <strong>• Mediação:</strong> Atuamos na busca por <strong>soluções negociadas</strong> para evitar a via judicial sempre que possível.<br/><br/><hr/><br/><strong>Guarda: Regulamentação, Modificação e Execução</strong><br/>A guarda dos filhos é um dos temas mais sensíveis. Nosso foco é a defesa do <strong>melhor interesse da criança e do adolescente</strong>, buscando o tipo de guarda mais adequado.<br/><br/> <strong>• Regulamentação e Modificação:</strong> Ações para estabelecer ou alterar o tipo de guarda (<strong>compartilhada</strong> ou <strong>unilateral</strong>) e a definição do <strong>regime de convivência</strong> (visitas).<br/><br/> <strong>• Execução de Guarda:</strong> Medidas judiciais para fazer cumprir o que foi determinado em sentença ou acordo anterior.<br/><br/><hr/><br/><strong>Pensão: Ações de Alimentos, Revisão, Execução e Exoneração</strong><br/>As ações de alimentos (pensão alimentícia) visam garantir o sustento de quem necessita (filhos, ex-cônjuges ou outros dependentes legais).<br/><br/> <strong>• Ação de Alimentos:</strong> Pedido de fixação do valor da pensão, observando o <strong>binômio necessidade</strong> do alimentando e <strong>possibilidade</strong> do alimentante.<br/><br/> <strong>• Revisão e Exoneração:</strong> Ações para modificar o valor (aumentar ou diminuir) ou extinguir a obrigação de pagar a pensão, em razão da situação financeira ou alcance da maioridade/independência do beneficiário.<br/><br/> <strong>• Execução:</strong> Medidas para cobrar valores atrasados, incluindo a possibilidade de <strong>prisão civil</strong> do devedor no caso de pensão alimentícia.<br/><br/><hr/><br/><strong>Inventário, Partilha e Testamento: Direito das Sucessões</strong><br/>Atuamos para garantir que a transferência do patrimônio (herança) após o falecimento seja feita de forma justa e legal.<br/><br/> <strong>• Inventário Judicial e Extrajudicial:</strong> Condução do processo para levantar, avaliar e distribuir os bens do falecido. O <strong>inventário extrajudicial</strong> é mais rápido e realizado em cartório, sendo possível quando há consenso entre os herdeiros capazes.<br/><br/> <strong>• Planejamento Sucessório:</strong> Orientação e elaboração de instrumentos como <strong>testamentos</strong>, doações e holdings familiares para organizar a sucessão em vida, <strong>reduzir custos</strong> e evitar conflitos futuros entre os herdeiros.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
@@ -80,9 +80,9 @@
       "buttonLabel": "Entenda"
     },
     "card8": {
-      "title": "Inventário, Partilha e Testamento",
-      "subtitle": "Planejamento Sucessório, Inventário Judicial e Extrajudicial.",
-      "description": "O Direito das Sucessões trata da transferência do patrimônio (herança) após o falecimento. Atuamos para garantir que a divisão seja feita de forma justa e legal. <br/><br/>  <strong>• Inventário Judicial e Extrajudicial:</strong> Condução do processo para levantar, avaliar e distribuir os bens do falecido, seja no âmbito judicial (obrigatório se houver menores, incapazes ou litígio) ou em cartório (extrajudicial, quando há consenso e herdeiros capazes). <br/><br/> <strong>• Planejamento Sucessório:</strong> Orientação e elaboração de instrumentos como <strong>testamentos, doações e holdings familiares</strong> para organizar a sucessão em vida, reduzir custos e evitar conflitos futuros.",
+      "title": "Direito Civil",
+      "subtitle": "Proteção de bens, contratos e indenizações.",
+      "description": "O <strong>Direito Civil</strong> é a base do sistema legal, regulando as relações mais cotidianas entre as pessoas. Atuamos na defesa de seus direitos patrimoniais e pessoais.<br/><br/>  <strong>• Obrigações e Contratos:</strong> Elaboração, análise e execução judicial de contratos de compra e venda, locação, empréstimos, etc., garantindo a segurança jurídica das transações. <br/><br/> <strong>• Responsabilidade Civil (Indenizações):</strong> Ações para buscar reparação (danos materiais, morais e estéticos) por prejuízos causados por terceiros, sejam eles decorrentes de acidentes, falhas profissionais ou descumprimento de deveres legais. <br/><br/> <strong>• Direitos Reais (Imóveis):</strong> Questões relacionadas à propriedade, posse, usucapião e despejo.",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "Entenda"
     },
@@ -136,8 +136,8 @@
     "title": "Minha trajetória",
     "subtitle": "Advogado Benedito Orestes Gonzaga Neto | OAB - SP nº 213.619",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "Iniciei minha trajetória na advocacia em 2004, motivado pelo desejo de oferecer apoio jurídico acessível e humano. Minha atuação sempre foi marcada pela proximidade com o cliente e pelo compromisso em garantir uma defesa técnica respeitosa, especialmente na área criminal, incluindo Tribunal do Júri, tráfico de drogas e acompanhamentos na delegacia.",
-    "modal": " Iniciei minha trajetória na advocacia em 2004, motivado pelo desejo de oferecer apoio jurídico acessível e humano. Minha atuação sempre foi marcada pela proximidade com o cliente e pelo compromisso em garantir uma defesa técnica respeitosa, especialmente na área criminal, incluindo Tribunal do Júri, tráfico de drogas e acompanhamentos na delegacia.<br/><br/> Entre 2012 e 2016, fui Diretor do Procon de Itapeva-SP, onde tive avaliações muito positivas dos usuários. Essa experiência reforçou meu compromisso com o atendimento público de qualidade e a proteção do consumidor. <br/><br/> Além da área criminal, também atuo no Direito Civil, auxiliando em separações, partilhas, inventários e contratos. Desde 2004, mantenho a mesma missão: oferecer segurança jurídica, responsabilidade e acolhimento real em cada atendimento.",
+    "paragraph": "Iniciei minha trajetória na advocacia em 2004, motivado pelo desejo de oferecer apoio jurídico acessível e humano. Minha atuação sempre foi marcada pela proximidade com o cliente e pelo compromisso em garantir uma defesa técnica respeitosa, especialmente na área cível e criminal, incluindo Tribunal do Júri e acompanhamentos na delegacia.",
+    "modal": " Iniciei minha trajetória na advocacia em 2004, motivado pelo desejo de oferecer apoio jurídico acessível e humano. Minha atuação sempre foi marcada pela proximidade com o cliente e pelo compromisso em garantir uma defesa técnica respeitosa, especialmente na área cível e criminal, incluindo Tribunal do Júri e acompanhamentos na delegacia..<br/><br/> Entre 2012 e 2016, fui Diretor do Procon de Itapeva - SP, onde tive avaliações muito positivas dos usuários. Essa experiência reforçou meu compromisso com o atendimento público de qualidade e a proteção do consumidor. <br/><br/> Na área criminal atuamos em processos criminais na defesa de réus em casos de Lei Maria da Penha, Tribunais do Júri, acompanhamento em delegacias para testemunhos, flagrantes, tudo isso em plantão de 24h, também atuo no Direito Civil em causas de separações, partilhas, inventários e contratos. Desde 2004, mantenho a mesma missão: oferecer segurança jurídica, responsabilidade e acolhimento real em cada atendimento.",
     "ctaButtonAriaLabel": " Quer saber mais sobre nós? Clique abaixo 👇",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {

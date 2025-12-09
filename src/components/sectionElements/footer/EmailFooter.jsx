@@ -1,7 +1,7 @@
-import React from "react";
-import { FileSliders, Mail } from "lucide-react";
-import MotionDivDownToUp from "../../animation/MotionDivDownToUp";
-import content from "../../../content/content";
+import React from 'react'
+import { FileSliders, Mail } from 'lucide-react'
+import MotionDivDownToUp from '../../animation/MotionDivDownToUp'
+import content from '../../../content/content'
 
 function EmailFooter({
   emailTwo = true,
@@ -22,15 +22,21 @@ function EmailFooter({
       </MotionDivDownToUp> */}
 
       {emailTwo && (
-        <MotionDivDownToUp>
-          <div className="flex full gap-x-[12px] items-center opacity-90">
-            <Mail />
+        <a
+          href="mailto:neto.gonzaga@hotmail.com"
+          aria-label="Abre diretamente no email"
+        >
+          {' '}
+          <MotionDivDownToUp>
+            <div className="flex full gap-x-[12px] items-center opacity-90">
+              <Mail />
 
-            <p className="text-paragraph3">
-              {content.texts.infos.emailSecundario}{" "}
-            </p>
-          </div>
-        </MotionDivDownToUp>
+              <p className="text-paragraph3">
+                {content.texts.infos.emailSecundario}{' '}
+              </p>
+            </div>
+          </MotionDivDownToUp>
+        </a>
       )}
 
       {emailThree && (
@@ -63,7 +69,7 @@ function EmailFooter({
         </MotionDivDownToUp>
       )}
     </>
-  );
+  )
 }
 
-export default EmailFooter;
+export default EmailFooter
